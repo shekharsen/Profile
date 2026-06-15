@@ -889,6 +889,13 @@ section {
     }
 }
 
+/* Hide on tablets and mobiles */
+@media (max-width: 1024px) {
+    .scroll-indicator {
+        display: none;
+    }
+}
+
 /* -------- TABLETS -------- */
 @media (max-width: 992px) {
 
